@@ -1,0 +1,24 @@
+{
+  "name": "wad_t5_riot_api_invoicing",
+  "version": "1.0.0",
+  "description": "A nodejs REST API for our invoicing system for a Restaurant named Santo Placer",
+  "main": "indexT5.js",
+  "scripts": {
+    "start": "nodemon indexT5.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "mongodb"
+  ],
+  "author": "Team 5 RIOT",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
